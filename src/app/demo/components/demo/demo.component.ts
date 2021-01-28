@@ -16,6 +16,7 @@ export class DemoComponent implements OnInit {
   power = 10;
 
   ngOnInit() {
+    // code
   }
 
   addItem() {
@@ -25,5 +26,7 @@ export class DemoComponent implements OnInit {
   deleteItem(index: number) {
     this.items.splice(index, 1);
   }
+
+
 
 }

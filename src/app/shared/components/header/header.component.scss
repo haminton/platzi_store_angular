@@ -1,8 +1,13 @@
 nav > a {
-    padding: 5px;
-    text-decoration: none;
+  padding: 5px;
+  text-decoration: none;
 }
 nav > a.active {
-    background-color: blueviolet;
-    color: white;
+  background-color: blue;
+}
+.header-row{
+  width: 100%;
+}
+.header-toolbar {
+  margin-bottom: 20px;
 }
